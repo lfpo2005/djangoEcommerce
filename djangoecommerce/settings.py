@@ -26,7 +26,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['localhost', 'ecommercejaleco.herokuapp.com/', 'ecommercejaleco.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'ecommercejaleco.herokuapp.com/', 'ecommercejaleco.herokuapp.com']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
+    'catalogo',
 ]
 
 MIDDLEWARE = [
