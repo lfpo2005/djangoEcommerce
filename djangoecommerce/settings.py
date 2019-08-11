@@ -26,7 +26,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['localhost', 'ecommercejaleco.herokuapp.com/', 'lojajalecofeminino.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'ecommercejaleco.herokuapp.com/', 'lojajalecofenminino.herokuapp.com']
 
 
 # Application definition
