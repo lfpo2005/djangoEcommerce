@@ -36,7 +36,7 @@ class Migration(migrations.Migration):
                 ('price', models.DecimalField(decimal_places=2, max_digits=8, verbose_name='Preço')),
                 ('created', models.DateTimeField(auto_now_add=True, verbose_name='Criado em')),
                 ('modified', models.DateTimeField(auto_now=True, verbose_name='Modificado em')),
-                ('category', models.ForeignKey(on_delete='models.CASCADE', to='catalogo.Category', verbose_name='Categoria')),
+                ('category', models.ForeignKey(on_delete='models.CASCADE', to='catalog.Category', verbose_name='Categoria')),
             ],
             options={
                 'verbose_name': 'Produto',
